@@ -5,5 +5,7 @@ function generateKey(passLength, characters) {
     let result = [];
     for (let i = 0; i < passLength; i++) {
         result.push(splitted[Math.floor(Math.random() * splitted.length + 1)])
-    } return console.log(result.join(''));
+    }
+
+    return console.log(result.join(''));
 }
